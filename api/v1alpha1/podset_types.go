@@ -33,8 +33,8 @@ type PodsetSpec struct {
 
 // PodSetStatus defines the current status of PodSet
 type PodsetStatus struct {
-	PodNames        []string        `json:"podNames"`
-	AvailableReplicas    int32    `json:"availableReplicas"`
+	PodNames          []string `json:"podNames"`
+	AvailableReplicas int32    `json:"availableReplicas"`
 }
 
 //+kubebuilder:object:root=true
